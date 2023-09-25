@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.accordion-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.item {
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out ;
+    margin: 0 90px;
+}
+
+.active {
+    transform: scale(1.2);
+    z-index: 1;
+    margin: 0 160px 160px;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 0;
+    transition: transform 0.5s ease-in-out;
+}
